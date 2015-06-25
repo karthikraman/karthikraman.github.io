@@ -512,6 +512,14 @@ html { box-sizing: border-box; }
   #home a { color: #111111; }
   #home .sectiondivider { color: #f8f8f8; }
 
+  
+  
+  
+  nav .p-home { border-color: ; }
+  #home { background-color:  !important; color: ; }
+  #home a { color: ; }
+  #home .sectiondivider { color: ; }
+
 
 
 /* ----- code, syntax highlighting, etc ----- */
