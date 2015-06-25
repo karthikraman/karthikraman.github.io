@@ -507,10 +507,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-home { border-color: #f8f8f8; }
-  #home { background-color: #f8f8f8 !important; color: #111111; }
-  #home a { color: #111111; }
-  #home .sectiondivider { color: #f8f8f8; }
+  nav .p-code { border-color: #fab125; }
+  #code { background-color: #fab125 !important; color: #111111; }
+  #code a { color: #111111; }
+  #code .sectiondivider { color: #fab125; }
 
   
   
@@ -519,6 +519,14 @@ html { box-sizing: border-box; }
   #home { background-color:  !important; color: ; }
   #home a { color: ; }
   #home .sectiondivider { color: ; }
+
+  
+  
+  
+  nav .p-home { border-color: #f8f8f8; }
+  #home { background-color: #f8f8f8 !important; color: #111111; }
+  #home a { color: #111111; }
+  #home .sectiondivider { color: #f8f8f8; }
 
 
 
