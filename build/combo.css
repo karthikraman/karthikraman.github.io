@@ -515,14 +515,6 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-home { border-color: ; }
-  #home { background-color:  !important; color: ; }
-  #home a { color: ; }
-  #home .sectiondivider { color: ; }
-
-  
-  
-  
   nav .p-home { border-color: #f8f8f8; }
   #home { background-color: #f8f8f8 !important; color: #0fbfcf; }
   #home a { color: #0fbfcf; }
