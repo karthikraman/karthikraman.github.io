@@ -5,14 +5,15 @@
 - group: "Pañcāṅga & timekeeping"
   items:
     - title: "Adyātithi"
-      status: private
+      status: public
       description: >
-        A Pañcāṅga (Hindu luni-solar calendar) engine that powers the
-        Adyātithi newsletter — day-to-day notes on tithi, nakshatra and
-        festival dates.
+        A repository of various festivals.
       links:
         - text: "Read on Substack →"
           url: "https://adyatithi.substack.com"
+        - text: "GitHub Adyatithi →"
+          url: "http://github.com/jyotisham/adyatithi"
+
 
     - title: "Pañcāṅgam"
       status: public
@@ -51,6 +52,9 @@
         A "bridge" (setu) for transliterating between Devanagari and
         other Indic scripts (lipi) — a tool for cleaner cross-script
         Sanskrit text.
+      links:
+        - text: "Try it out →"
+          url: "https://lipisetu.web.app/"
 
     - title: "StotraSamhita"
       status: public
@@ -71,3 +75,6 @@
       description: >
         A Carmen Sandiego–style geography and culture guessing game
         set across India — currently in development.
+      links:
+        - text: "Try it out →"
+          url: "https://karthikraman.github.io/carmen-india-game/"
