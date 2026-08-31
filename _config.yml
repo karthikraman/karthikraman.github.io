@@ -1,36 +1,16 @@
----
+title:       "Karthik Raman"
+tagline:     "Professor, IIT Madras — Systems Biology · Indic Computing"
+keywords:    "Karthik Raman, systems biology, IIT Madras, computational biology, panchangam, sanskrit, indic computing"
+description: "Personal site of Karthik Raman — Professor at IIT Madras working on computational systems biology, and builder of side projects in Indic computing, Pañcāṅga calculation and Sanskrit typesetting."
+url:         "https://karthikraman.github.io"
 
-port: 4000
-host: 0.0.0.0
-safe: false
+# content
+email:       "kraman@iitm.ac.in"
+github:      "https://github.com/karthikraman"
+linkedin:    "https://linkedin.com/in/ramankarthik"
+twitter:     "https://twitter.com/karthikraman"
+ramanlab:    "https://ramanlab.github.io"
+cv:          "https://home.iitm.ac.in/kraman/CV/karthik-raman-cv.pdf"
 
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
-timezone: null
-lsi: false
 markdown: kramdown
-highlighter: rouge
-
-
-### content configuration ###
-title:       "Karthik Raman | IIT Madras"
-keywords:    "Karthik Raman, systems biology, IIT Madras"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/karthikraman/karthikraman.github.io"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
-
-
-### template colors, used site-wide via css ###
-colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
-  
+exclude: [README.md, .gitignore]
