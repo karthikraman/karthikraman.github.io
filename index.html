@@ -83,52 +83,22 @@ layout: default
       <p>Mostly Indic computing — calendars, scripts and typesetting — plus the odd game. Some repos are private while they're still in flux; get in touch if you'd like a look.</p>
     </div>
 
-    <p class="group-label">Pañcāṅga &amp; timekeeping</p>
+    {% for group in site.data.projects %}
+    <p class="group-label">{{ group.group | escape }}</p>
     <div class="card-grid">
+      {% for item in group.items %}
       <div class="card">
-        <h3>Adyātithi <span class="status private">Private</span></h3>
-        <p>A Pañcāṅga (Hindu luni-solar calendar) engine that powers the Adyātithi newsletter — day-to-day notes on tithi, nakshatra and festival dates.</p>
-        <div class="links"><a href="https://adyatithi.substack.com">Read on Substack →</a></div>
-      </div>
-      <div class="card">
-        <h3>Pañcāṅgam <span class="status public">Public</span></h3>
-        <p>Swiss-ephemeris–based Pañcāṅga calculator for any location and year — tithi, nakshatra, yoga, karaṇa and vāra, plus Hindu festival dates. Outputs printable monthly/daily PDFs and standard ICS calendar files.</p>
-        <div class="links"><a href="https://github.com/karthikraman/panchangam">View on GitHub →</a></div>
-      </div>
-      <div class="card">
-        <h3>Kamakoti Pañcāṅgam <span class="status private">Private</span></h3>
-        <p>A Pañcāṅga variant following Kanchi Kamakoti Peetham conventions, for a specific community's calendar and observance needs.</p>
-      </div>
-      <div class="card">
-        <h3>Ghatika Clock <span class="status public">Public</span></h3>
-        <p>A live web clock for traditional Indian timekeeping — divides each sunrise-to-sunrise day into 30 ghatikas (with finer subdivisions), computed from local sunrise/sunset, for ritual scheduling.</p>
-        <div class="links"><a href="https://github.com/karthikraman/ghatika-clock">View on GitHub →</a></div>
-      </div>
-    </div>
-
-    <p class="group-label">Scripts &amp; texts</p>
-    <div class="card-grid">
-      <div class="card">
-        <h3>LipiSetu <span class="status private">Private</span></h3>
-        <p>A "bridge" (setu) for transliterating between Devanagari and other Indic scripts (lipi) — a tool for cleaner cross-script Sanskrit text.</p>
-      </div>
-      <div class="card">
-        <h3>StotraSamhita <span class="status public">Public</span></h3>
-        <p>A long-running effort to digitise and carefully proof-read Sanskrit stotras, and typeset them beautifully across multiple Indic scripts.</p>
+        <h3>{{ item.title }} <span class="status {{ item.status }}">{{ item.status | capitalize }}</span></h3>
+        <p>{{ item.description | strip }}</p>
+        {% if item.links %}
         <div class="links">
-          <a href="https://stotrasamhita.net">stotrasamhita.net →</a>
-          <a href="https://github.com/StotraSamhita">GitHub org →</a>
+          {% for link in item.links %}<a href="{{ link.url }}">{{ link.text }}</a> {% endfor %}
         </div>
+        {% endif %}
       </div>
+      {% endfor %}
     </div>
-
-    <p class="group-label">Games &amp; other</p>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Carmen India <span class="status private">Private</span></h3>
-        <p>A Carmen Sandiego–style geography and culture guessing game set across India — currently in development.</p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -139,11 +109,9 @@ layout: default
       <h2>Personal interests</h2>
     </div>
     <ul class="interests-list">
-      <li>Reading and writing Sanskrit (साधनम्, sporadically)</li>
-      <li>Carnatic music — listener, and occasional singer</li>
-      <li>Test cricket, mostly &mdash; ODI &gt;&gt; T20I ≈ IPL</li>
-      <li>Running <a href="https://sethubandhanam.com/">SethuBandhanam</a>, a non-profit, with a friend</li>
-      <li>Reading — tracked (imperfectly) on <a href="https://www.goodreads.com/user/show/15622082-karthik-raman">Goodreads</a></li>
+      {% for item in site.data.interests %}
+      <li>{{ item.text }}{% if item.link_url %} <a href="{{ item.link_url }}">{{ item.link_text }}</a>{{ item.suffix }}{% endif %}</li>
+      {% endfor %}
     </ul>
   </div>
 </section>

@@ -1,0 +1,16 @@
+# Personal interests list, shown on the homepage.
+# link_text/link_url/suffix are optional — only needed if the line has a link in it.
+- text: "Reading and writing Sanskrit (साधनम्, sporadically)"
+
+- text: "Carnatic music — listener, and occasional singer"
+
+- text: "Test cricket, mostly — ODI >> T20I ≈ IPL"
+
+- text: "Running"
+  link_text: "SethuBandhanam"
+  link_url: "https://sethubandhanam.com/"
+  suffix: ", a non-profit, with a friend"
+
+- text: "Reading — tracked (imperfectly) on"
+  link_text: "Goodreads"
+  link_url: "https://www.goodreads.com/user/show/15622082-karthik-raman"
