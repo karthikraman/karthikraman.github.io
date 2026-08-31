@@ -2,4 +2,4 @@ I was born and schooled in Chennai, and studied Chemical Technology at ICT Mumba
 
 Today I lead [RamanLab]({{ site.ramanlab }}) at the Wadhwani School of Data Science & AI, where we combine networks, models and AI to understand, predict and manipulate complex biological systems — spanning microbiome systems biology, *in silico* metabolic engineering, biological network design, and biological data analysis. I also coordinate the [Centre for Integrative Biology and Systems mEdicine (IBSE)](https://ibse.iitm.ac.in/), teach programming and computational biology at IIT Madras, and contribute to national AI-literacy efforts such as [AI Samarth](https://www.aisamarth.centralsquarefoundation.org/).
 
-The rest of this page is mostly the other half — the side projects, mostly around Indic computing, that I build for fun.
+The rest of this page tries to catalogue my other interests — the side projects, mostly around संस्कृतम् and Indic computing, that I build for fun.
