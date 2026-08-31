@@ -14,25 +14,6 @@
         - text: "GitHub Adyatithi →"
           url: "http://github.com/jyotisham/adyatithi"
 
-
-    - title: "Pañcāṅgam"
-      status: public
-      description: >
-        Swiss-ephemeris–based Pañcāṅga calculator for any location and
-        year — tithi, nakshatra, yoga, karaṇa and vāra, plus Hindu
-        festival dates. Outputs printable monthly/daily PDFs and
-        standard ICS calendar files.
-      links:
-        - text: "View on GitHub →"
-          url: "https://github.com/karthikraman/panchangam"
-
-    - title: "Kamakoti Pañcāṅgam"
-      status: private
-      description: >
-        A Pañcāṅga variant following Kanchi Kamakoti Peetham
-        conventions, for a specific community's calendar and
-        observance needs.
-
     - title: "Ghatika Clock"
       status: public
       description: >
@@ -43,6 +24,9 @@
       links:
         - text: "View on GitHub →"
           url: "https://github.com/karthikraman/ghatika-clock"
+        - text: "Try it out →"
+          url: "https://ghatika-clock.web.app"
+
 
 - group: "Scripts & texts"
   items:
