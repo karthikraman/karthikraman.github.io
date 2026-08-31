@@ -39,17 +39,15 @@ layout: default
         <p class="kicker">About</p>
         <h2>Systems biology, by way of Chennai, Bangalore and Zurich</h2>
       </div>
-      <p>I was born and schooled in Chennai, and studied Chemical Technology at ICT Mumbai before moving to IISc Bangalore for a PhD in Systems Biology, advised by Nagasuma Chandra and Saraswathi Vishveshwara. A postdoc with Andreas Wagner at the University of Zürich followed, before I returned to India in 2011 to join the Department of Biotechnology at IIT Madras.</p>
-      <p>Today I lead <a href="{{ site.ramanlab }}">RamanLab</a> at the Wadhwani School of Data Science &amp; AI, where we combine networks, models and AI to understand, predict and manipulate complex biological systems — spanning microbiome systems biology, <em>in silico</em> metabolic engineering, biological network design, and biological data analysis. I also coordinate the <a href="https://ibse.iitm.ac.in/">Centre for Integrative Biology and Systems mEdicine (IBSE)</a>, teach programming and computational biology at IIT Madras, and contribute to national AI-literacy efforts such as <a href="https://www.aisamarth.centralsquarefoundation.org/">AI Samarth</a>.</p>
-      <p>The rest of this page is mostly the other half — the side projects, mostly around Indic computing, that I build for fun.</p>
+      {% capture about_md %}{% include about.md %}{% endcapture %}
+      {{ about_md | markdownify }}
     </div>
     <aside class="aside-box">
       <h4>Elsewhere</h4>
       <ul>
-        <li><a href="{{ site.ramanlab }}">RamanLab</a> — full research profile, publications &amp; people</li>
-        <li><a href="{{ site.cv }}">Curriculum Vitae</a> (PDF)</li>
-        <li><a href="https://ibse.iitm.ac.in/">IBSE, IIT Madras</a></li>
-        <li><a href="https://www.goodreads.com/user/show/15622082-karthik-raman">Goodreads</a></li>
+        {% for item in site.data.elsewhere %}
+        <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
       </ul>
     </aside>
   </div>
@@ -60,13 +58,13 @@ layout: default
     <div class="section-head">
       <p class="kicker">Research</p>
       <h2>Networks, models &amp; AI for biological systems</h2>
-      <p>Work in the lab broadly spans four themes. Full details, ongoing projects and the publication list live on the RamanLab site.</p>
+      {% capture research_md %}{% include research.md %}{% endcapture %}
+      {{ research_md | markdownify }}
     </div>
     <div class="tags">
-      <span class="tag">Microbiome systems biology</span>
-      <span class="tag">In silico metabolic engineering</span>
-      <span class="tag">Biological network design</span>
-      <span class="tag">Biological data analysis</span>
+      {% for tag in site.data.research_tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
     </div>
     <div class="btn-row">
       <a class="btn" href="{{ site.ramanlab }}/research/">Research themes →</a>
@@ -89,7 +87,7 @@ layout: default
       {% for item in group.items %}
       <div class="card">
         <h3>{{ item.title }} <span class="status {{ item.status }}">{{ item.status | capitalize }}</span></h3>
-        <p>{{ item.description | strip }}</p>
+        <p>{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% if item.links %}
         <div class="links">
           {% for link in item.links %}<a href="{{ link.url }}">{{ link.text }}</a> {% endfor %}
@@ -110,7 +108,7 @@ layout: default
     </div>
     <ul class="interests-list">
       {% for item in site.data.interests %}
-      <li>{{ item.text }}{% if item.link_url %} <a href="{{ item.link_url }}">{{ item.link_text }}</a>{{ item.suffix }}{% endif %}</li>
+      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
       {% endfor %}
     </ul>
   </div>
