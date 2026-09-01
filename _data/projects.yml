@@ -95,7 +95,9 @@
       status: private
       description: >
         A Carmen Sandiego–style geography and culture guessing game
-        set across India — currently in development.
+        set across India — currently in development. Clues heavily driven by ChatGPT/Claude.
+        Inspired by the [original game](https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(1985_video_game)) we played as kids, and the
+        [Google Earth version now accessible](https://experiments.withgoogle.com/where-on-earth).
       links:
         - text: "Try it out →"
           url: "https://karthikraman.github.io/carmen-india-game/"
