@@ -29,30 +29,6 @@
 
 
 - group: "Scripts & texts"
-  # repo_links renders as a compact linked chip list under this group's cards —
-  # used here to list every repo in the StotraSamhita org without a full card each.
-  repo_links_label: "StotraSamhita repositories (30)"
-  repo_links:
-    - name: "puja-vidhanam"
-      url: "https://github.com/StotraSamhita/puja-vidhanam"
-    - name: "stotrasamhita.github.io"
-      url: "https://github.com/StotraSamhita/stotrasamhita.github.io"
-    - name: "stotra-sangrahah"
-      url: "https://github.com/StotraSamhita/stotra-sangrahah"
-    - name: "stotra-sangrahah-tamil"
-      url: "https://github.com/StotraSamhita/namavali-manjari"
-    - name: "vedamantra-book"
-      url: "https://github.com/StotraSamhita/vedamantra-book"
-    - name: "gita"
-      url: "https://github.com/StotraSamhita/gita"
-    - name: "RamayanaRatnakara"
-      url: "https://github.com/StotraSamhita/RamayanaRatnakara"
-    - name: "Mahabharatam"
-      url: "https://github.com/StotraSamhita/Mahabharatam"
-    - name: "ValmikiRamayanam"
-      url: "https://github.com/StotraSamhita/ValmikiRamayanam"
-    - name: "AdhyatmaRamayanam"
-      url: "https://github.com/StotraSamhita/AdhyatmaRamayanam"
   items:
     - title: "LipiSetu"
       status: private

@@ -1,7 +1,3 @@
-# Highlighted texts from the StotraSamhita org, with descriptions drawn
-# from each repo's own README. This is a curated subset — the full list
-# of StotraSamhita repos is linked as a chip list under Projects.
-
 - title: "Stotra Sangrahah"
   status: public
   description: >
@@ -119,7 +115,7 @@
   description: >
     The Tulā Kāverī Māhātmyam — the Puranic text glorifying the
     sanctity of the Kāverī river, traditionally recited during Tulā
-    Saṅkramaṇa, the sun's transit into Tulā rāśi.
+    Saṅkramaṇa, the sun's transit into Tulā rāśi. Ongoing - alpha stage.
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/TulaKaveriMahatmyam"
