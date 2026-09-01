@@ -9,6 +9,7 @@ layout: default
       <li><a href="#about">About</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#sanskrit-texts">Sanskrit Texts</a></li>
       <li><a href="#interests">Interests</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -105,7 +106,30 @@ layout: default
   </div>
 </section>
 
-<section id="interests" class="alt">
+<section id="sanskrit-texts" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Sanskrit Texts</p>
+      <h2>Digitised &amp; typeset editions</h2>
+      <p>Highlights from the StotraSamhita organisation — classical Sanskrit texts, digitised, corrected and typeset in Devanagari (and other scripts) as proper LaTeX-built books, not just scanned PDFs.</p>
+    </div>
+    <div class="card-grid">
+      {% for item in site.data.sanskrit_texts %}
+      <div class="card">
+        <h3>{{ item.title }} <span class="status {{ item.status }}">{{ item.status | capitalize }}</span></h3>
+        <p>{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% if item.links %}
+        <div class="links">
+          {% for link in item.links %}<a href="{{ link.url }}">{{ link.text }}</a> {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="interests">
   <div class="wrap">
     <div class="section-head">
       <p class="kicker">Beyond the code</p>

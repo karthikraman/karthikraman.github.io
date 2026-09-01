@@ -1,0 +1,144 @@
+# Highlighted texts from the StotraSamhita org, with descriptions drawn
+# from each repo's own README. This is a curated subset — the full list
+# of StotraSamhita repos is linked as a chip list under Projects.
+
+- title: "Stotra Sangrahah"
+  status: public
+  description: >
+    A LaTeX-typeset archive of Sanskrit devotional hymns (stotras),
+    sourced from sanskritdocuments.org and prapatti.com and then
+    corrected and typeset. This is the one that started it all — first
+    published in May 2008, inspired by Karthik's grandfather's
+    handwritten collection. Compiled into one comprehensive volume,
+    themed booklets (Navarātri, daily recitation, a children's primer),
+    and individual per-deity PDFs, across five page-size editions from
+    A5 digital to Kindle Scribe.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah"
+
+- title: "Vedamantra Book"
+  status: public
+  description: >
+    Vedic texts of the Taittirīya Śākhā of the Kṛṣṇa Yajurveda in
+    Devanagari: a curated Mantras collection for daily worship (Puruṣa
+    Sūktam, Śrī Sūktam, Rudra Praśna, Sandhyāvandanam), the complete
+    Taittirīya Āraṇyaka (ten Praśnas plus associated Upaniṣads), the
+    full Taittirīya Brāhmaṇa (eight Aṣṭakas), and the entire Taittirīya
+    Saṃhitā (seven Kāṇḍas). Typeset in the Siddhanta font, with digital,
+    Kindle, Kindle Scribe, print and reMarkable editions.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/vedamantra-book"
+
+- title: "Bhagavad Gītā"
+  status: public
+  description: >
+    A complete Devanagari edition of all 18 chapters of the Gītā,
+    including the preparatory recitation (nyāsa) and traditional praise
+    verses (māhātmyam), word-by-word padaccheda splits for every verse,
+    and alphabetical verse and word concordances (~3,800 unique Sanskrit
+    words) — bidirectionally hyperlinked between the main text and the
+    word splits. Digital, Kindle, print and annotated editions.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/gita"
+
+- title: "Mahābhāratam"
+  status: public
+  description: >
+    A digitised, typeset edition of the full Mahābhārata across all 18
+    traditional parvas, based on the early-1900s Kumbhakoṇam edition
+    (the Southern recension), digitised via the SARIT project. Built
+    through a TEI-XML → per-parva JSON → LaTeX pipeline, with custom
+    scripts to handle Sanskrit sandhi corrections along the way.
+    Available as a full two-column edition and a Kindle-optimized
+    single-column edition, plus standalone parvas such as the Virāṭa
+    Parva.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/Mahabharatam"
+
+- title: "Vālmīki Rāmāyaṇam"
+  status: public
+  description: >
+    A LaTeX/PDF edition of the Vālmīki Rāmāyaṇa, organized by kāṇḍa,
+    generated through a JSON-to-TeX pipeline that automatically applies
+    śloka macros based on line length and adds chapter annotations.
+    Kindle and print editions.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/ValmikiRamayanam"
+
+- title: "Adhyātma Rāmāyaṇam"
+  status: public
+  description: >
+    The Adhyātma Rāmāyaṇa in Sanskrit — the philosophical and
+    devotional retelling of Rāma's story (traditionally placed within
+    the Brahmāṇḍa Purāṇa) that frames Rāma as Brahman itself. Print,
+    Kindle and Kindle Scribe editions.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/AdhyatmaRamayanam"
+
+- title: "Rāmāyaṇa Ratnākara"
+  status: public
+  description: >
+    A collection of Rāmāyaṇa stories gathered from across the
+    Itihāsas and Purāṇas — supplementary narratives and episodes of
+    Rāma's life (rāma-caritam) beyond the core Vālmīki text, alongside
+    related stotras.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/RamayanaRatnakara"
+
+- title: "Nāmāvali Mañjari"
+  status: public
+  description: >
+    A collection of śata- and sahasra-nāmāvalis — the 100- and
+    1000-name litanies recited for various deities — organized by
+    count, with print, Kindle, and Kindle Scribe PDF editions.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/namavali-manjari"
+
+- title: "Pūjā Vidhānam"
+  status: public
+  description: >
+    A comprehensive collection of Sanskrit mantras, verses and
+    step-by-step ritual instructions for performing Hindu pūjās and
+    vratas at home — saṅkalpa (statements of intent), invocations, the
+    sixteen upacāra offerings, deity-specific mantras, mythological
+    narratives traditionally recited during specific observances, and
+    reference appendices for lunar months, constellations and ritual
+    elements. Designed for direct ritual use rather than reference
+    reading, in a compact two-column edition, a Kindle Scribe edition
+    with narrative chapters, and a Vedic-inclusive Kindle edition.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/puja-vidhanam"
+
+- title: "Tulā Kāverī Māhātmyam"
+  status: public
+  description: >
+    The Tulā Kāverī Māhātmyam — the Puranic text glorifying the
+    sanctity of the Kāverī river, traditionally recited during Tulā
+    Saṅkramaṇa, the sun's transit into Tulā rāśi.
+  links:
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/TulaKaveriMahatmyam"
+
+- title: "stotrasamhita.net"
+  status: public
+  description: >
+    The codebase behind stotrasamhita.net itself — a wiki of Sanskrit
+    stotras, nāmāvalis, pūjā-vidhānam and related texts rendered in
+    multiple Indian scripts. Runs on a dual Jekyll + Hugo pipeline:
+    Jekyll for the site shell and major-book pages, Hugo for the
+    stotras/namavalis/pujavidhanam/mahabharatam/gita/adhyatma-ramayanam
+    sections, merged together and deployed to GitHub Pages.
+  links:
+    - text: "stotrasamhita.net →"
+      url: "https://stotrasamhita.net"
+    - text: "View on GitHub →"
+      url: "https://github.com/StotraSamhita/stotrasamhita.github.io"
