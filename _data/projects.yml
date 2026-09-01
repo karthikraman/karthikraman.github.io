@@ -29,6 +29,70 @@
 
 
 - group: "Scripts & texts"
+  # repo_links renders as a compact linked chip list under this group's cards —
+  # used here to list every repo in the StotraSamhita org without a full card each.
+  repo_links_label: "StotraSamhita repositories (30)"
+  repo_links:
+    - name: "puja-vidhanam"
+      url: "https://github.com/StotraSamhita/puja-vidhanam"
+    - name: "stotrasamhita.github.io"
+      url: "https://github.com/StotraSamhita/stotrasamhita.github.io"
+    - name: "stotra-sangrahah"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah"
+    - name: "stotra-sangrahah-tamil"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-tamil"
+    - name: "stotra-sangrahah-kannada"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-kannada"
+    - name: "stotra-sangrahah-telugu"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-telugu"
+    - name: "stotra-sangrahah-malayalam"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-malayalam"
+    - name: "stotra-sangrahah-grantha"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-grantha"
+    - name: "stotra-sangrahah-tamilgrantha"
+      url: "https://github.com/StotraSamhita/stotra-sangrahah-tamilgrantha"
+    - name: "namavali-manjari"
+      url: "https://github.com/StotraSamhita/namavali-manjari"
+    - name: "vedamantra-book"
+      url: "https://github.com/StotraSamhita/vedamantra-book"
+    - name: "vedamantra-book-tamil"
+      url: "https://github.com/StotraSamhita/vedamantra-book-tamil"
+    - name: "vedamantra-book-kannada"
+      url: "https://github.com/StotraSamhita/vedamantra-book-kannada"
+    - name: "vedamantra-book-telugu"
+      url: "https://github.com/StotraSamhita/vedamantra-book-telugu"
+    - name: "vedamantra-book-malayalam"
+      url: "https://github.com/StotraSamhita/vedamantra-book-malayalam"
+    - name: "vedamantra-book-grantha"
+      url: "https://github.com/StotraSamhita/vedamantra-book-grantha"
+    - name: "vedamantra-book-tamilgrantha"
+      url: "https://github.com/StotraSamhita/vedamantra-book-tamilgrantha"
+    - name: "gita"
+      url: "https://github.com/StotraSamhita/gita"
+    - name: "RamayanaRatnakara"
+      url: "https://github.com/StotraSamhita/RamayanaRatnakara"
+    - name: "Mahabharatam"
+      url: "https://github.com/StotraSamhita/Mahabharatam"
+    - name: "ValmikiRamayanam"
+      url: "https://github.com/StotraSamhita/ValmikiRamayanam"
+    - name: "ValmikiRamayanam-MuneoTokunaga"
+      url: "https://github.com/StotraSamhita/ValmikiRamayanam-MuneoTokunaga"
+    - name: "AdhyatmaRamayanam"
+      url: "https://github.com/StotraSamhita/AdhyatmaRamayanam"
+    - name: "TulaKaveriMahatmyam"
+      url: "https://github.com/StotraSamhita/TulaKaveriMahatmyam"
+    - name: "thesanskritchannel_projects"
+      url: "https://github.com/StotraSamhita/thesanskritchannel_projects"
+    - name: "Transliterated-PDFs"
+      url: "https://github.com/StotraSamhita/Transliterated-PDFs"
+    - name: "verse-checker"
+      url: "https://github.com/StotraSamhita/verse-checker"
+    - name: "sanskrit_text_gitasupersite"
+      url: "https://github.com/StotraSamhita/sanskrit_text_gitasupersite"
+    - name: "translipi"
+      url: "https://github.com/StotraSamhita/translipi"
+    - name: "Code"
+      url: "https://github.com/StotraSamhita/Code"
   items:
     - title: "LipiSetu"
       status: private
@@ -45,12 +109,23 @@
       description: >
         A long-running effort to digitise and carefully proof-read
         Sanskrit stotras, and typeset them beautifully across multiple
-        Indic scripts.
+        Indic scripts — a whole organisation of repos, one per text or
+        script edition (see below).
       links:
         - text: "stotrasamhita.net →"
           url: "https://stotrasamhita.net"
         - text: "GitHub org →"
           url: "https://github.com/StotraSamhita"
+
+    - title: "Devanagari Flashcards"
+      status: public
+      description: >
+        Flashcards for learning Devanagari alongside other South
+        Indian scripts (IAST, Grantha, Kannada, Telugu) — LaTeX-built
+        printable PDFs plus a vocabulary spreadsheet.
+      links:
+        - text: "View on GitHub →"
+          url: "https://github.com/sanskrit-coders/devanagari-flashcards"
 
 - group: "Games & other"
   items:

@@ -143,8 +143,11 @@ img { max-width: 100%; display: block; }
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 9px 16px;
+  justify-content: center;
+  gap: 8px;
+  min-width: 188px;
+  height: 40px;
+  padding: 0 16px;
   border-radius: var(--radius);
   font-size: 0.9rem;
   font-weight: 600;
@@ -153,6 +156,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink);
   box-shadow: var(--shadow);
 }
+.btn svg { flex: none; width: 16px; height: 16px; }
 .btn:hover { text-decoration: none; border-color: var(--terracotta); color: var(--terracotta-dark); }
 .btn.primary {
   background: var(--terracotta);
@@ -202,8 +206,11 @@ section.alt { background: var(--paper-alt); }
 /* --- Cards / project grid --- */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+}
+@media (max-width: 560px) {
+  .card-grid { grid-template-columns: 1fr; }
 }
 .card {
   background: var(--card);
@@ -252,6 +259,32 @@ section.alt { background: var(--paper-alt); }
   margin: 30px 0 14px;
 }
 .group-label:first-child { margin-top: 0; }
+
+.repo-links-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin: 22px 0 10px;
+}
+.repo-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.repo-links a {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--indigo);
+  border: 1px solid var(--rule);
+}
+.repo-links a:hover {
+  border-color: var(--terracotta);
+  color: var(--terracotta-dark);
+  text-decoration: none;
+}
 
 /* --- Bio / research --- */
 .two-col {
