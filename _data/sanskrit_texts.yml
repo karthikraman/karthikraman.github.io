@@ -12,6 +12,8 @@
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/stotra-sangrahah"
+    - text: "View text in multiple scripts →"
+      url: "https://stotrasamhita.github.io/stotras/"
 
 - title: "Vedamantra Book"
   status: public
@@ -39,6 +41,8 @@
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/gita"
+    - text: "View text in multiple scripts →"
+      url: "https://stotrasamhita.github.io/gita/"
 
 - title: "Mahābhāratam"
   status: public
@@ -50,10 +54,12 @@
     scripts to handle Sanskrit sandhi corrections along the way.
     Available as a full two-column edition and a Kindle-optimized
     single-column edition, plus standalone parvas such as the Virāṭa
-    Parva.
+    Parva. **Only Virāṭa Parva has been carefully proofread**.
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/Mahabharatam"
+    - text: "View Virāṭa Parva in multiple scripts →"
+      url: "https://stotrasamhita.github.io/mahabharatam/04-vir%C4%81%E1%B9%ADaparva/chapter-01/"
 
 - title: "Vālmīki Rāmāyaṇam"
   status: public
@@ -75,6 +81,9 @@
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/AdhyatmaRamayanam"
+    - text: "View text in multiple scripts →"
+      url: "https://stotrasamhita.github.io/adhyatma-ramayanam/"
+
 
 - title: "Rāmāyaṇa Ratnākara"
   status: public
@@ -96,6 +105,9 @@
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/namavali-manjari"
+    - text: "View text in multiple scripts →"
+      url: "https://stotrasamhita.github.io/namavalis"
+
 
 - title: "Pūjā Vidhānam"
   status: public
