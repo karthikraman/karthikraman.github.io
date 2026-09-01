@@ -19,8 +19,8 @@
       description: >
         A live web clock for traditional Indian timekeeping — divides
         each sunrise-to-sunrise day into 30 ghatikas (with finer
-        subdivisions), computed from local sunrise/sunset, for ritual
-        scheduling.
+        subdivisions), computed from local sunrise/sunset, esp. for timing
+        Sandhyāvandanam etc.
       links:
         - text: "View on GitHub →"
           url: "https://github.com/karthikraman/ghatika-clock"
@@ -97,9 +97,9 @@
     - title: "LipiSetu"
       status: private
       description: >
-        A "bridge" (setu) for transliterating between Devanagari and
-        other Indic scripts (lipi) — a tool for cleaner cross-script
-        Sanskrit text.
+        A "bridge" (setu) for learning various Indic scripts (lipi) — a 
+        gamified approach to learning one script (e.g. Telugu/grantha) building
+        on the knowledge of another (e.g. devanagari/IAST).
       links:
         - text: "Try it out →"
           url: "https://lipisetu.web.app/"
