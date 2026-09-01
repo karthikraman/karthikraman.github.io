@@ -4,15 +4,41 @@
 
 - group: "Pañcāṅga & timekeeping"
   items:
-    - title: "Adyātithi"
+    - title: "Jyotisha"
       status: public
       description: >
-        A repository of various festivals.
+        jyotisha is an open-source Python library for the astronomical and 
+        calendrical vedāṅga of the Hindus. It computes pañcāṅga elements — 
+        tithi, nakṣatra, yoga, karaṇa, muhūrta — from precise ephemerides, and 
+        generates location-specific festival calendars for any year in 
+        printable, HTML and ICS-subscribable formats. MIT-licensed, installable 
+        from PyPI. Co-maintained with [Vishvas Vasuki](https://vishvasa.github.io/).
+      links:
+        - text: "Jyotisha on GitHub →"
+          url: "http://github.com/jyotisham/jyotisha"
+
+    - title: "Adyatithi"
+      status: public
+      description: >
+        adyatithi is the core festival database behind jyotisha — 
+        several thousand TOML records of Hindu observances, vratas and 
+        ārādhanās, each specifying its timing rule (lunar month and tithi, 
+        solar month, nakṣatra, or an offset from another event) alongside 
+        descriptions, scriptural references and śloka citations. Included in 
+        jyotisha as a submodule.
       links:
         - text: "Read on Substack →"
           url: "https://adyatithi.substack.com"
         - text: "GitHub Adyatithi →"
           url: "http://github.com/jyotisham/adyatithi"
+
+    - title: "Adyatithi Substack"
+      status: public
+      description: >
+        adyatithi — a newsletter on the Hindu calendar. Each post takes up a tithi, vrata or festival falling in the days ahead, and traces the observance to its Purāṇic or nibandha source. Dates are computed with jyotisha from the open adyatithi festival database, for several locations across the world.
+      links:
+        - text: "Read on Substack →"
+          url: "https://adyatithi.substack.com"
 
     - title: "Ghatika Clock"
       status: public
