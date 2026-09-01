@@ -6,9 +6,9 @@
   status: public
   description: >
     A LaTeX-typeset archive of Sanskrit devotional hymns (stotras),
-    sourced from sanskritdocuments.org and prapatti.com and then
+    sourced from sanskritdocuments.org, old scanned texts and elsewhere, and then
     corrected and typeset. This is the one that started it all — first
-    published in May 2008, inspired by Karthik's grandfather's
+    published in May 2008, inspired by my grandfather's
     handwritten collection. Compiled into one comprehensive volume,
     themed booklets (Navarātri, daily recitation, a children's primer),
     and individual per-deity PDFs, across five page-size editions from
@@ -74,9 +74,8 @@
   status: public
   description: >
     The Adhyātma Rāmāyaṇa in Sanskrit — the philosophical and
-    devotional retelling of Rāma's story (traditionally placed within
-    the Brahmāṇḍa Purāṇa) that frames Rāma as Brahman itself. Print,
-    Kindle and Kindle Scribe editions.
+    devotional retelling of Rāma's story that frames Rāma as
+    Brahman itself. Print, Kindle and Kindle Scribe editions.
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/AdhyatmaRamayanam"
@@ -96,7 +95,7 @@
   status: public
   description: >
     A collection of śata- and sahasra-nāmāvalis — the 100- and
-    1000-name litanies recited for various deities — organized by
+    1000-name nāmāvalī-s recited for various deities — organized by
     count, with print, Kindle, and Kindle Scribe PDF editions.
   links:
     - text: "View on GitHub →"
@@ -106,14 +105,11 @@
   status: public
   description: >
     A comprehensive collection of Sanskrit mantras, verses and
-    step-by-step ritual instructions for performing Hindu pūjās and
-    vratas at home — saṅkalpa (statements of intent), invocations, the
-    sixteen upacāra offerings, deity-specific mantras, mythological
-    narratives traditionally recited during specific observances, and
+    step-by-step pūjā instructions for performing various pūjās and
+    vratas at home — saṅkalpa, the sixteen upacāra offerings, deity-specific
+    mantras, narratives from purāṇa-s traditionally recited during specific observances, and
     reference appendices for lunar months, constellations and ritual
-    elements. Designed for direct ritual use rather than reference
-    reading, in a compact two-column edition, a Kindle Scribe edition
-    with narrative chapters, and a Vedic-inclusive Kindle edition.
+    elements. 
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/puja-vidhanam"
@@ -127,18 +123,3 @@
   links:
     - text: "View on GitHub →"
       url: "https://github.com/StotraSamhita/TulaKaveriMahatmyam"
-
-- title: "stotrasamhita.net"
-  status: public
-  description: >
-    The codebase behind stotrasamhita.net itself — a wiki of Sanskrit
-    stotras, nāmāvalis, pūjā-vidhānam and related texts rendered in
-    multiple Indian scripts. Runs on a dual Jekyll + Hugo pipeline:
-    Jekyll for the site shell and major-book pages, Hugo for the
-    stotras/namavalis/pujavidhanam/mahabharatam/gita/adhyatma-ramayanam
-    sections, merged together and deployed to GitHub Pages.
-  links:
-    - text: "stotrasamhita.net →"
-      url: "https://stotrasamhita.net"
-    - text: "View on GitHub →"
-      url: "https://github.com/StotraSamhita/stotrasamhita.github.io"
