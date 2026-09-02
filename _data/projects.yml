@@ -101,3 +101,16 @@
       links:
         - text: "Try it out →"
           url: "https://karthikraman.github.io/carmen-india-game/"
+
+    - title: "Letris"
+      status: public
+      description: >
+        A word game based on falling letters — Tetris rules, Boggle scoring.
+        Letters drop one at a time down a grid; instead of clearing lines,
+        you clear words spelled left→right or top→bottom. A single
+        self-contained HTML file, no build, no dependencies.
+      links:
+        - text: "Try it out →"
+          url: "https://karthikraman.github.io/letris/"
+        - text: "View on GitHub →"
+          url: "https://github.com/karthikraman/letris"
