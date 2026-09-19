@@ -114,3 +114,17 @@
           url: "https://karthikraman.github.io/letris/"
         - text: "View on GitHub →"
           url: "https://github.com/karthikraman/letris"
+
+    - title: "Snap Attack"
+      status: public
+      description: >
+        A single-player rebuild of Microsoft's Wordament Snap Attack (2014–2018),
+        reconstructed from its published description after the game was shut down. 
+        An 8×7 board with two or three words already locked in, seven movable tiles, 
+        and two and a half minutes to shuffle them into as many words as you can 
+        find.
+      links:
+        - text: "Try it out →"
+          url: "https://karthikraman.github.io/snap-attack/"
+        - text: "View on GitHub →"
+          url: "https://github.com/karthikraman/snap-attack"
