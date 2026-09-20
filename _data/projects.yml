@@ -20,15 +20,16 @@
     - title: "Adyatithi"
       status: public
       description: >
-        adyatithi is the core festival database behind jyotisha — 
-        several thousand TOML records of Hindu observances, vratas and 
-        ārādhanās, each specifying its timing rule (lunar month and tithi, 
-        solar month, nakṣatra, or an offset from another event) alongside 
-        descriptions, scriptural references and śloka citations. Included in 
-        jyotisha as a submodule.
+        adyatithi is the core festival database behind jyotisha —
+        several thousand TOML records of Hindu observances, vratas and
+        ārādhanās, each specifying its timing rule (lunar month and tithi,
+        solar month, nakṣatra, or an offset from another event) alongside
+        descriptions, scriptural references and śloka citations. Now also
+        browsable as a website, filterable by month, tithi, nakṣatra, devatā
+        and tradition. Included in jyotisha as a submodule.
       links:
-        - text: "Read on Substack →"
-          url: "https://adyatithi.substack.com"
+        - text: "Browse Adyatithi →"
+          url: "https://adyatithi.github.io"
         - text: "GitHub Adyatithi →"
           url: "http://github.com/jyotisham/adyatithi"
 
