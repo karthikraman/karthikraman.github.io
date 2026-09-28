@@ -80,6 +80,20 @@
         - text: "GitHub org →"
           url: "https://github.com/StotraSamhita"
 
+    - title: "Vāṇī"
+      status: public
+      description: >
+        Chanted audio and videos of Sanskrit stotras and kathās, generated
+        with [Vāgdhenu](https://github.com/prathoshap/vagdhenu) from the
+        StotraSamhita LaTeX sources. Every verse is chanted in its own metre
+        over a śruti drone, with Devanāgarī and IAST slides typeset for the
+        video. The chant is AI-generated, and laukika (non-Vedic) only.
+      links:
+        - text: "Watch on YouTube →"
+          url: "https://www.youtube.com/@stotrasamhita-vani"
+        - text: "View on GitHub →"
+          url: "https://github.com/StotraSamhita/vani"
+
     - title: "Devanagari Flashcards"
       status: public
       description: >
